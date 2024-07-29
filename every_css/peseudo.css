@@ -1,0 +1,42 @@
+
+
+#greeting p{
+    background-color: rgb(75, 153, 216);
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    background-color: rgb(75, 153, 216);
+    display: block;
+}
+
+
+a:hover{
+    color: black;
+    font-size: 1.1em;
+}
+
+a:active{
+    color: hsl(0, 84%, 42%);
+    font-size: 1.1em;
+}
+
+a:visited{
+    color: hsl(0, 0%, 50%);
+}
+
+li:hover{
+         background-color: rgb(150, 66, 228);
+}
+
+li:not(:hover){
+    background-color: rgb(141, 202, 243);
+}
+
+li:nth-child(even){
+    background-color: hsl(195, 53%, 79%);
+}
+
+a:link{
+    color: hsl(276, 56%, 2%);
+}

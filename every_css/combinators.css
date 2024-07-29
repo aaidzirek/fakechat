@@ -1,0 +1,12 @@
+#container{
+    border: 2px solid;
+}
+#container  p{
+    background-color: hsl(152, 89%, 71%);
+} 
+#container ~ p{
+    background-color: hsl(175, 17%, 28%);
+} 
+#container + p{
+    background-color: hsl(128, 52%, 47%);
+} 

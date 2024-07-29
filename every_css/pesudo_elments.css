@@ -1,0 +1,22 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+     background-color: hsl(34, 78%, 91%);
+}
+p::selection{
+    color: greenyellow;
+    background-color: black;
+}
+#fruit li::before{
+    
+}
+#apple::after{
+    content:"🌙";
+}
+#fruit li::marker{
+    content:"🌙";
+    color: hsl(234, 60%, 41%);
+    font-size: 1.2em;
+}

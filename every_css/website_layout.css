@@ -2,12 +2,12 @@
     box-sizing: border-box;
  }
  body{
-    margin: 0px;
+    margin: 6px;
  }
  
  header{
     background-color: hsl(0, 0%, 77%);
-    text-align: center;
+    text-align: center ;
     padding: 0.5px;
 }
 .navbar{

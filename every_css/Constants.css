@@ -1,13 +1,13 @@
 body{
-    background-image: url(/imeges/background2-small.jpg);
+    background-image: url(/imeges/nature.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 }
 h1{
-    color: white;
+    color: hsl(207, 97%, 15%);
 }
 label{
-    color: white;
+    color: rgb(50, 82, 119);
 }

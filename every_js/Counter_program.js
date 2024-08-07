@@ -5,17 +5,17 @@
    const countLabel = document.getElementById("countLabel");
    let count = 0;
 
-   increaseBtn.onclick = function(){
+increaseBtn.onclick = function(){
       count++;
       countLabel.textcontent = count;
-   }
+}
 
-   decreasBtn.onclick = function(){
+decreasBtn.onclick = function(){
     count--;
     countLabel.textcontent = count;
  }
 
- decreasBtn.onclick = function(){
+decreasBtn.onclick = function(){
     count = 0;
     countLabel.textcontent = count;
  }

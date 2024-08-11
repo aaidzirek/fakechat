@@ -1,0 +1,9 @@
+body{
+    background-color: hsl(84, 100%, 88%);
+    font-family: verdana;
+    font-size: 100%;
+}
+
+#mySubmit{
+    font-size: 1em;
+}

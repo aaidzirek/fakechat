@@ -18,13 +18,11 @@ mySubmit.onclick = function(){
     if(visaBtn.checked){
         paymentReslut.textContent = `you are pauing with visa✔️`;
     }
-    else{
-        paymentReslut.textContent = `you are NOT pauing with visa✖️`;
-    }
-    if(masterCardBtn.checked){
+
+    else if(masterCardBtn.checked){
         paymentReslut.textContent = `you are pauing with MasterCard✔️`;
     }
-    if(payPalBtn.checked){
+    else if(payPalBtn.checked){
         paymentReslut.textContent = `you are pauing with payPal✔️`;
     }
     else{

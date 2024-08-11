@@ -27,6 +27,6 @@ let students = 30;
             4. addition & subtraction
    */
 
- let result = 1 + 2 * 3 + 4 ** 2;
+ let result = 1 + 2 * 3 + 4 ** 5;
 
 console.log(result);

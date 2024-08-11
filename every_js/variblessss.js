@@ -1,7 +1,7 @@
 
 
 
-let fullName = "Aaid";
+let fullName = "aaid";
 let age = 25;
 let isstudent = false;
 

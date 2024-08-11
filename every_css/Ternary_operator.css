@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(255, 165, 165);
+    background-image: url(../imeges/nature.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+

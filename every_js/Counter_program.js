@@ -7,15 +7,20 @@
 
 increaseBtn.onclick = function(){
       count++;
-      countLabel.textcontent = count;
+      countLabel.textContent = count;
+      console.log(count);
 }
 
 decreasBtn.onclick = function(){
     count--;
-    countLabel.textcontent = count;
+    countLabel.textContent = count;
+    console.log(count);
  }
 
-decreasBtn.onclick = function(){
+resetBtn.onclick = function(){
     count = 0;
-    countLabel.textcontent = count;
+    countLabel.textContent = count;
+    console.log(count);
  }
+
+ 

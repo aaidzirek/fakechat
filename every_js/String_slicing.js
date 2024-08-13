@@ -18,7 +18,7 @@ console.log(lastName);
 
 const email = "zirekaaid@gmail.com";
 let username = email.slice(0, email.indexOf("@"));
-let extension = email.slice(email.indexOf("@") + 1); 
+let extension = email.slice(email.indexOf("@") + 2); 
 
 console.log(username);
 console.log(extension);

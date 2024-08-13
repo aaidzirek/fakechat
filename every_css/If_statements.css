@@ -1,3 +1,10 @@
 body{
-    background-color:lightblue;
+    background-color:rgb(175, 182, 178);
 }
+h1{
+    color: rgb(8, 11, 184);
+}
+p{
+    color: rgb(51, 243, 243);
+}
+    /* /* background-color: black;      ::selection  */

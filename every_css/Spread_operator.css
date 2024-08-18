@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(212, 165, 252);
+    color: rgb(48, 3, 89);
+    font-size: large;
+    font-family: verdana;
+    font-weight: bold;
+    padding-top: 1em;
+    text-align: center;
+
+}
+h1{
+    text-shadow: 5px 15px 9px;
+}
+p{
+    text-shadow: 1px 15px 10px;
+}

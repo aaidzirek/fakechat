@@ -124,11 +124,8 @@ document.addEventListener("click", (e) => {
             span.innerHTML = theClickedLetter;
 
           }
-
         });
-
       }
-
     });
 
     // Outside Loop
@@ -157,7 +154,7 @@ document.addEventListener("click", (e) => {
 
       // Play Success Sound
       document.getElementById("success").play();
-
+      checkWinConditions();
     }
 
   }
@@ -166,7 +163,7 @@ document.addEventListener("click", (e) => {
 
 // End Game Function
 function endGame() {
-
+  
   // Create Popup Div
   let div = document.createElement("div");
 
@@ -181,5 +178,33 @@ function endGame() {
 
   // Append To The Body
   document.body.appendChild(div);
+  startNewGame();
 
+
+}
+
+
+function endGameSuccess() {
+  let div = document.createElement("div");
+  let divText = document.createTextNode(`GG YOU'VE WON!`);
+  div.appendChild(divText);
+  div.className = 'popup';
+  document.body.appendChild(div);
+  startNewGame();
+
+}
+
+function checkWinConditions() {
+  let guessWord = Array.from(lettersGuessContainer.children).map(span => span.textContent).join('');
+
+  if (guessWord === randomValueValue) {
+    endGameSuccess();
+  }
+}
+
+function startNewGame(){
+  setTimeout(function() {
+    // Code to execute after the delay
+    location.reload(); 
+  }, 3000); // 3000 milliseconds = 3 seconds
 }

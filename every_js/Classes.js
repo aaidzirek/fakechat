@@ -27,5 +27,6 @@ product2.displayProduct();
 product3.displayProduct();
 
 
+
 const total = (product3).calculateTotal(salesTax);
- console.log(`Total price (with tax) ${total.toFixed(2)}`,total);
+console.log(`Total price (with tax) ${total.toFixed(2)}`,total);

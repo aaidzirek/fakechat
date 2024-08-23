@@ -43,7 +43,6 @@ let fullData = { ...userProfile, ...userData};
 console.log(fullData);
 
 
-
 let { name, address, phone} = userData
 console.log(name, address, phone)
 

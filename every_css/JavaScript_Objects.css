@@ -5,14 +5,14 @@ body{
     border: ridge;
     font-weight: bold;
     font-style: italic;
-    background-color: rgb(2, 255, 2);
+    background-color: rgb(255, 169, 169);
     color: rgb(0, 0, 0);
     display: block; 
     border-radius: 2em;
     box-shadow: 10px 10px 15px rgb(54, 74, 71);
     text-align: center;
     margin: 1em;
-    height: 10em;
+    height: 12em;
 }
 p{
     font-weight: bold;

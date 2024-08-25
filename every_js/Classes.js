@@ -22,11 +22,39 @@ const product1 = new Product("shirt", 19.99);
 const product2 = new Product("Pants", 22.50);
 const product3 = new Product("Underwear", 100.00);
 
-product1.displayProduct();
-product2.displayProduct();
-product3.displayProduct();
+const products = [
+    {name: "shirt", price: 19.99}, 
+    {name: "Pants", price: 22.50},
+    {name: "Underwear", price: 100.00},
+    {name: "pan", price: 24.49},
+    {name: "Cap", price: 9.99}
+]
 
+function calculateAllProducts(products, tax) {
+    let total = 0;
 
+    products.forEach(product => {
+        total += product.price;
+    });
+
+    const tatalWithTax = total + (total * tax);
+
+    return tatalWithTax;
+}
+
+function displayProducts(products) {
+    products.forEach(product => {
+        console.log(`Product: ${product.name}, Price: ${product.price}`);
+    })
+}
+
+// product1.displayProduct();
+// product2.displayProduct();
+// product3.displayProduct();
+
+displayProducts(products);
 
 const total = (product3).calculateTotal(salesTax);
-console.log(`Total price (with tax) ${total.toFixed(2)}`,total);
+const totalAllProduct = calculateAllProducts(products, salesTax);
+// console.log(`Total price (with tax) ${total.toFixed(2)}`,total);
+console.log(`Total price (with tax): $${totalAllProduct.toFixed(2)}`);

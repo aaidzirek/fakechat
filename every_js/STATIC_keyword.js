@@ -34,26 +34,27 @@ const MAthUtil1 = new MAthUtil();
 class User{
     static userCount = 0;
 
-    comstructor(username){
+    constructor(username){
         this.username = username;
         User.userCount++;
+    }
 
     static getUserCount(){
         console.log(`There are ${User.userCount} user online`);
     }
 
-    sayHello()
+    sayHello(){
         console.log(`Hello, my username is ${this.username}`);
-    
-
     }
 }
+
 const user1 = new User("Spangebob");
 const user2 = new User("Patrick");
-
+const user3 = new User("bro code")
 
 user1.sayHello();
 user2.sayHello();
+user3.sayHello()
 
 // console.log(user1.username);
 // console.log(user2.username);

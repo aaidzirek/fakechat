@@ -54,8 +54,6 @@ const user3 = new User("bro code")
 
 user1.sayHello();
 user2.sayHello();
-user3.sayHello()
+user3.sayHello();
 
-// console.log(user1.username);
-// console.log(user2.username);
 User.getUserCount();

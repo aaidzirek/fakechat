@@ -16,14 +16,14 @@
 // }
 // outer();
 
-// --------- EXAMPLE 2 ---------let count = 0;
+// --------- EXAMPLE 2 ---------
 function createCounter(){
     
     let count = 0;
 
     function increment(){
-        count++;
         console.log(`count increased to ${count}`);
+        count++;
     }
 
     function getCount(){
@@ -34,13 +34,41 @@ function createCounter(){
 }
 const counter = createCounter();
 
-counter.increment();
-counter.increment();
-counter.increment();
-counter.increment();
-
-console.log(`The current count is ${counter.getCount()}`);
+// counter.increment();
+// counter.increment();
+// counter.increment();
 
 
-// counter.count = 0;
+// console.log(`The current count is ${counter.getCount()}`);
+
+counter.count = 0;
 // console.log(counter.count);
+
+// --------- EXAMPLE 3 ---------
+
+function createGame(){
+   let score = 0;
+
+function increaseScore(points){
+    score += points;
+    console.log(`+${points}pts`);
+}
+
+function decreaseScore(points){
+    score -= points;
+    console.log(`-${points}pts`);
+}
+
+function getScore(){
+    return score;
+}
+
+return{increaseScore, decreaseScore, getScore};
+}
+
+const game = createGame();
+
+game.increaseScore(6);
+game.increaseScore(5);
+game.decreaseScore(4);
+console.log(`The final score is ${game.getScore()}pts`)

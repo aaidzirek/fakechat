@@ -23,3 +23,4 @@ function rollDice(){
     numOfDice > 6 ? diceResult.textContent = "" : diceResult.textContent = `dice: ${values.join(', ')}`;
     diceImages.innerHTML = images.join('');
 }
+ 

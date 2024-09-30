@@ -3,7 +3,7 @@
 
 
 let fruits = ["apple", "orange", "banana", "coconut", "mango"];
-                                 /*
+                                 /**/
  fruits[3] = "coconut";
  fruits.push("coconut");
  fruits.pop();
@@ -20,7 +20,7 @@ let index = fruits.indexOf("kiwi");
 
 console.log(fruits);
 console.log(index);
-console.log(numOfFruits);         */
+console.log(numOfFruits);         
 
 // for(let i = 0; i < fruits.length; i+=2){
 // for(let i = fruits.length -1; i >= 0; i--){

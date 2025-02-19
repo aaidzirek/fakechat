@@ -35,3 +35,17 @@ document.getElementById("box2").removeChild(newH1);
 
 
 // ---------- EXAMPLE 2 li ELEMENT ----------
+
+// STEP 1 CREATE THE ELEMENT----------
+const newListItem = document.createElement(li);
+
+
+// STEP 2 ADD ATTRIBUTES/PROPERTIES----------
+newListItem.textContent = "coconut";
+
+document.getElementById("fruits").append(newListItem);
+
+
+
+// STEP 3 APPEND ELEMENT TO DOM----------
+// document.body.append(newListItem);

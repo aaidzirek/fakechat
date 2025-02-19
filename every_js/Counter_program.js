@@ -5,11 +5,19 @@
    const countLabel = document.getElementById("countLabel");
    let count = 0;
 
-increaseBtn.onclick = function(){
-      count++;
-      countLabel.textContent = count;
-      console.log(count);
-}
+// these two code have same meaning but (addEventListener) you can add without need to wroting
+// 
+increaseBtn.addEventListener("click", function() {
+   count++;
+   countLabel.textContent = count;
+   console.log(count);
+});
+
+// increaseBtn.onclick = function(){
+//       count++;
+//       countLabel.textContent = count;
+//       console.log(count);
+// }
 
 decreasBtn.onclick = function(){
     count--;
